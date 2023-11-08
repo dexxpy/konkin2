@@ -11,17 +11,17 @@ int main()
     cout << "Введите количество чисел в последовательности: ";
     cin >> n;
 
-    std::cout << "Введите " << n << " чисел:\n";
+    cout << "Введите " << n << " чисел:\n";
     for (int i = 0; i < n; ++i) 
     {
         int num;
-        std::cin >> num;
+        cin >> num;
         sequence.push_back(num);
     }
 
     if (sequence.empty())
     {
-        std::cout << "Последовательность пуста.\n";
+        cout << "Последовательность пуста.\n";
         return 1;
     }
 
