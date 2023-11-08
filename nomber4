@@ -33,7 +33,7 @@ int main()
 
 	}
 
-	cout << "Минимальное число будет: " << minNum << ",и его индекс" << minNumIndex << endl;
+	cout << "Минимальное число будет: " << minNum << ",и его хуйок" << minNumIndex << endl;
 	cout << "Максимальное число будет: " << maxNum << ",и его индекс" << maxNumIndex << endl;
 
 }
